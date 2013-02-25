@@ -1,40 +1,49 @@
 <?xml version="1.0"?>
 <groups xmlns="http://www.isdc.ro/wro">
   <group name="simplicity-plugin-map-shape-creator-all">
-    <js>/simplicityMapShapeCreator.js</js>
-    <js>/simplicityMapShapeCreatorUi.js</js>
-    <js>/simplicityBingMapShapeCreator.js</js>
-    <js>/simplicityGoogleMapShapeCreator.js</js>
-    <js>/simplicityMapQuestMapShapeCreator.js</js>
-    <js>/simplicityNokiaMapShapeCreator.js</js>
+    <js>/simplicityGeoFn.js</js>
+    <js>/ui.simplicityMapShapeCreator.js</js>
+    <js>/ui.simplicityMapShapeCreatorUi.js</js>
+    <js>/ui.simplicityBingMapShapeCreator.js</js>
+    <js>/ui.simplicityGoogleMapShapeCreator.js</js>
+    <js>/ui.simplicityMapQuestMapShapeCreator.js</js>
+    <js>/ui.simplicityNokiaMapShapeCreator.js</js>
+    <js>/simplicityGoogleMarker.js</js>
     <css>/simplicityMapShapeCreator.css</css>
     <css>/simplicityMapShapeCreatorUi.css</css>
+    <css>/simplicityGoogleMarker.css</css>
   </group>
   <group name="simplicity-plugin-map-shape-creator-bing">
-    <js>/simplicityMapShapeCreator.js</js>
-    <js>/simplicityMapShapeCreatorUi.js</js>
-    <js>/simplicityBingMapShapeCreator.js</js>
+    <js>/simplicityGeoFn.js</js>
+    <js>/ui.simplicityMapShapeCreator.js</js>
+    <js>/ui.simplicityMapShapeCreatorUi.js</js>
+    <js>/ui.simplicityBingMapShapeCreator.js</js>
     <css>/simplicityMapShapeCreator.css</css>
     <css>/simplicityMapShapeCreatorUi.css</css>
   </group>
   <group name="simplicity-plugin-map-shape-creator-google">
-    <js>/simplicityMapShapeCreator.js</js>
-    <js>/simplicityMapShapeCreatorUi.js</js>
-    <js>/simplicityGoogleMapShapeCreator.js</js>
+    <js>/simplicityGeoFn.js</js>
+    <js>/simplicityGoogleMarker.js</js>
+    <js>/ui.simplicityMapShapeCreator.js</js>
+    <js>/ui.simplicityMapShapeCreatorUi.js</js>
+    <js>/ui.simplicityGoogleMapShapeCreator.js</js>
     <css>/simplicityMapShapeCreator.css</css>
     <css>/simplicityMapShapeCreatorUi.css</css>
+    <css>/simplicityGoogleMarker.css</css>
   </group>
   <group name="simplicity-plugin-map-shape-creator-mapquest">
-    <js>/simplicityMapShapeCreator.js</js>
-    <js>/simplicityMapShapeCreatorUi.js</js>
-    <js>/simplicityMapQuestMapShapeCreator.js</js>
+    <js>/simplicityGeoFn.js</js>
+    <js>/ui.simplicityMapShapeCreator.js</js>
+    <js>/ui.simplicityMapShapeCreatorUi.js</js>
+    <js>/ui.simplicityMapQuestMapShapeCreator.js</js>
     <css>/simplicityMapShapeCreator.css</css>
     <css>/simplicityMapShapeCreatorUi.css</css>
   </group>
   <group name="simplicity-plugin-map-shape-creator-nokia">
-    <js>/simplicityMapShapeCreator.js</js>
-    <js>/simplicityMapShapeCreatorUi.js</js>
-    <js>/simplicityNokiaMapShapeCreator.js</js>
+    <js>/simplicityGeoFn.js</js>
+    <js>/ui.simplicityMapShapeCreator.js</js>
+    <js>/ui.simplicityMapShapeCreatorUi.js</js>
+    <js>/ui.simplicityNokiaMapShapeCreator.js</js>
     <css>/simplicityMapShapeCreator.css</css>
     <css>/simplicityMapShapeCreatorUi.css</css>
   </group>

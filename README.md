@@ -6,5 +6,5 @@ Simplicity Widgets: http://simplicitywidgets.org
 
 To build run:
 
-    java -jar wro4j-runner-1.6.2-jar-with-dependencies.jar --compressor googleClosureSimple,yuiCssMin -m
+    java -jar wro4j-runner-1.6.2-jar-with-dependencies.jar --compressor jsHint,googleClosureSimple,yuiCssMin -m
 
